@@ -1,4 +1,4 @@
-// BUDGET CONTROLLR
+// BUDGET CONTROLLER
 var budgetController = (function() {
 
     var Expense = function(id, description, value) {
@@ -127,7 +127,7 @@ var budgetController = (function() {
 
 })();
 
-// UI CONTROLLR
+// UI CONTROLLER
 var UIController = (function() {
 
     var DOMstrings = {
@@ -302,7 +302,7 @@ var UIController = (function() {
 
 })();
 
-// GLOBAL APP CONTROLLR
+// GLOBAL APP CONTROLLER
 var controller = (function(budgetCtrl, UICtrl) {
 
     var setupEventListeners = function() {
